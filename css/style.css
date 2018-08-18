@@ -45,12 +45,14 @@ body {
     width: 100%;
     backface-visibility: hidden; }
     .card__side--front {
-      background-color: #13161F; }
+      display: grid;
+      background-color: #090C14;
+      text-align: center; }
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
         display: grid;
-        background-color: #13161F;
+        background-color: #090C14;
         text-align: center; }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
@@ -82,6 +84,12 @@ body {
 .x {
   color: #FF9500;
   font-weight: 400; }
+
+.whitepaper {
+  text-decoration: none;
+  color: #444; }
+  .whitepaper:hover {
+    color: #FF9500; }
 
 .exchanges {
   background-color: #fff;
@@ -299,6 +307,19 @@ body {
   grid-template-columns: auto min-content min-content min-content 9rem;
   grid-gap: 2rem;
   align-items: center; }
+  .nav--logo {
+    padding-left: 2.5rem;
+    justify-self: start;
+    font-family: "Ubuntu", sans-serif;
+    color: black;
+    font-size: 2.9rem;
+    grid-column: 1 / 1;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic; }
+    .nav--logo__x {
+      color: #FF9500;
+      font-weight: 400; }
   .nav__link:link, .nav__link:visited {
     font-size: 1.4rem;
     color: black;
@@ -323,33 +344,20 @@ body {
       transition: transform ease-in-out 500ms; }
     .nav__item:hover::before {
       transform: scale(1, 1); }
-    .nav__item--logo {
-      padding-left: 2.5rem;
-      justify-self: start;
-      font-family: "Ubuntu", sans-serif;
-      color: black;
-      font-size: 2.9rem;
-      grid-column: 1 / 1;
-      text-align: center;
-      font-weight: 700;
-      font-style: italic; }
-      .nav__item--logo__x {
-        color: #FF9500;
-        font-weight: 400; }
-    .nav__item--features {
-      width: 100%;
-      grid-column: 2 / 2; }
-    .nav__item--team {
-      width: 100%; }
-    .nav__item--exchanges {
-      width: 100%; }
-    .nav__item--faq {
-      width: 100%; }
+  .nav__link:hover--features, .nav__link:active--features {
+    width: 100%;
+    grid-column: 2 / 2; }
+  .nav__link:hover--team, .nav__link:active--team {
+    width: 100%; }
+  .nav__link:hover--exchanges, .nav__link:active--exchanges {
+    width: 100%; }
+  .nav__link:hover--faq, .nav__link:active--faq {
+    width: 100%; }
 
 .team {
   grid-column: center-start / center-end;
   margin: 0rem 0rem;
-  background-color: white;
+  background-color: #090C14;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 5rem;
@@ -374,7 +382,7 @@ body {
     color: #4D4D4D;
     padding-bottom: 3rem; }
   .partner__btns {
-    background-color: #13161F;
+    background-color: #090C14;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .1rem;
