@@ -173,6 +173,78 @@ body {
   .feature__text {
     font-size: 1.4rem;
     color: black; }
+  .feature--1 {
+    position: relative;
+    animation: corner-top-left;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; }
+  .feature--2 {
+    position: relative;
+    animation: middle-top;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; }
+  .feature--3 {
+    position: relative;
+    animation: corner-top-right;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; }
+  .feature--4 {
+    position: relative;
+    animation: corner-bottom-left;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; }
+  .feature--5 {
+    position: relative;
+    animation: middle-bottom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; }
+  .feature--6 {
+    position: relative;
+    animation: corner-bottom-right;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; }
+
+@keyframes corner-top-left {
+  0% {
+    left: -100px; }
+  100% {
+    left: 0; } }
+
+@keyframes middle-top {
+  0% {
+    top: -50px; }
+  100% {
+    top: 0; } }
+
+@keyframes corner-top-right {
+  0% {
+    right: -100px; }
+  100% {
+    right: 0; } }
+
+@keyframes corner-bottom-left {
+  0% {
+    left: -100px; }
+  100% {
+    left: 0; } }
+
+@keyframes middle-bottom {
+  0% {
+    top: 200px; }
+  100% {
+    top: 0; } }
+
+@keyframes corner-bottom-right {
+  0% {
+    right: -100px; }
+  100% {
+    right: 0; } }
 
 .footer {
   background-color: #090C14;
@@ -286,7 +358,20 @@ body {
   font-size: 10rem;
   font-style: italic;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  opacity: none; }
+
+.key-bitcoin {
+  position: relative;
+  animation: key-bitcoin;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; }
+
+@keyframes key-bitcoin {
+  0% {
+    top: -250px; }
+  100% {
+    top: 0; } }
 
 @media (max-width: 568px) {
   .pimg1, .pimg2, .pimg3 {
