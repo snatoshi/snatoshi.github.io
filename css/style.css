@@ -257,7 +257,7 @@ body {
     grid-template-rows: repeat(3, 1fr); }
     .footer__first--btns {
       display: grid;
-      grid-template-columns: repeat(3, min-content);
+      grid-template-columns: repeat(5, min-content);
       justify-items: left;
       padding-top: 1rem; }
   .footer__p {
