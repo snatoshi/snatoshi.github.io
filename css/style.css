@@ -260,7 +260,22 @@ body {
       grid-template-columns: repeat(5, min-content);
       justify-items: left;
       padding-top: 1rem; }
-  .footer__p {
+  .footer__second {
+    display: grid;
+    justify-items: right; }
+    .footer__second--resources {
+      color: white;
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1.6rem; }
+    .footer__second--p {
+      color: white;
+      text-decoration: none;
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1.2rem;
+      transition: all 500ms; }
+      .footer__second--p:hover {
+        color: #FF9500; }
+  .footer__copyright {
     align-self: end;
     color: white;
     font-family: "Ubuntu", sans-serif;
@@ -484,14 +499,6 @@ body {
     .partner__btns--mail {
       justify-self: center; }
 
-.heading-1 {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 15rem;
-  color: white; }
-  @media only screen and (max-width: 37.5em) {
-    .heading-1 {
-      font-size: 9rem; } }
-
 .heading-2 {
   font-family: "Lato", sans-serif;
   font-size: 1.6rem; }
@@ -508,12 +515,6 @@ body {
   padding: 1rem;
   font-weight: 700;
   font-style: italic; }
-
-.heading-5 {
-  font-family: "Lato", sans-serif;
-  font-size: 3.5rem;
-  color: black;
-  padding: 1rem; }
 
 .heading-6 {
   font-family: "Ubuntu", sans-serif;
