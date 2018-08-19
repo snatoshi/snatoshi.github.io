@@ -12,7 +12,7 @@ display_decimals=2
 name="Bitcoin X"
 desc=""
 conditions="21 million Total Supply"
-image="https://bitx.tk/img/logo_stellar_expert.png"
+image="https://bitx.tk/img/logo_toml.png"
 
 # optional extra information for humans
 # Useful place for anchors to detail various policies and required info
