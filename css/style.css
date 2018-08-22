@@ -85,12 +85,6 @@ body {
   color: #FF9500;
   font-weight: 400; }
 
-.whitepaper {
-  text-decoration: none;
-  color: #444; }
-  .whitepaper:hover {
-    color: #FF9500; }
-
 .exchanges {
   background-color: #fff;
   grid-column: center-start / center-end;
@@ -126,6 +120,12 @@ body {
   display: grid;
   padding: 2rem;
   grid-row-gap: 1rem; }
+  .faq__links {
+    color: #FF9500;
+    text-decoration: none;
+    transition: all 500ms; }
+    .faq__links:hover {
+      color: black; }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -397,7 +397,7 @@ body {
 
 .navigation {
   background-color: #fff;
-  opacity: .95;
+  opacity: 100%;
   grid-column: full-start / full-end;
   padding: .1rem;
   position: fixed;
@@ -424,11 +424,11 @@ body {
       color: #FF9500;
       font-weight: 400; }
   .nav__link:link, .nav__link:visited {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: black;
     text-decoration: none;
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
     text-align: center;
     padding: 1.5rem;
     display: block;
@@ -502,6 +502,23 @@ body {
     .partner__btns--mail {
       justify-self: center; }
 
+.heading-1 {
+  justify-self: center;
+  padding: 2rem;
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase; }
+
+.paragraph--1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.1rem;
+  color: black;
+  padding: 1rem;
+  font-weight: 700;
+  font-style: italic; }
+
 .heading-2 {
   font-family: "Lato", sans-serif;
   font-size: 1.6rem; }
@@ -510,14 +527,6 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   color: white; }
-
-.heading-4 {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 3.5rem;
-  color: black;
-  padding: 1rem;
-  font-weight: 700;
-  font-style: italic; }
 
 .heading-6 {
   font-family: "Ubuntu", sans-serif;
