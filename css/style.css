@@ -438,7 +438,7 @@ body {
     .nav__item::before {
       content: "";
       position: absolute;
-      top: 97%;
+      top: 99%;
       left: 0;
       height: 1.5px;
       width: 100%;
