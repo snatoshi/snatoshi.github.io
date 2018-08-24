@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/snatoshi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bitx.tk
+  * I am snatoshi (https://keybase.io/snatoshi) on keybase.
+  * I have a public key ASD3LydIZA5bkwEpebvRRe63ViAg5tMbkykwqxJZUUYbZQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f72f2748640e5b93012979bbd145eeb7562020e6d31b932930ab125951461b650a",
+      "host": "keybase.io",
+      "kid": "0120f72f2748640e5b93012979bbd145eeb7562020e6d31b932930ab125951461b650a",
+      "uid": "33e9aa3f61290ec538dafd59e8136219",
+      "username": "snatoshi"
+    },
+    "merkle_root": {
+      "ctime": 1535133501,
+      "hash": "c1dc6873b48fd50caf47399c9133ce87f95c52e6d912925e634cc932dc3784b8c07f47b8d2b01a67164d61894fc454eba3b406bebf0ca39a20ca3ddc001cfce7",
+      "hash_meta": "67d36fdaf32804f4f58d3026641520372d8303c4d337fc0899e923ba24b5dd36",
+      "seqno": 3511773
+    },
+    "service": {
+      "entropy": "vEuDRwqhjI0YkfdZ3GN94jJI",
+      "hostname": "bitx.tk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.0"
+  },
+  "ctime": 1535133541,
+  "expire_in": 504576000,
+  "prev": "256d7ad12c457686b8ecd011bbc800520175c514fa7a8a5dbd847999fb883e8c",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9y8nSGQOW5MBKXm70UXut1YgIObTG5MpMKsSWVFGG2UKp3BheWxvYWTESpcCCsQgJW160SxFdoa47NARu8gAUgF1xRT6eopdvYR5mfuIPozEILReB7grATqbLuCLtQzCJGX67ewFpXJJVUupjKn392azAgHCo3NpZ8RAJLphlRzyipKfeGTj3CqMo+a45BhA70MW5avnigNl+BwjGQWuueoViCKUxBPlUQT4h8xmxHgZlbyj5M1YKq5eCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPWH1UU0yI8pg5L5KBPtOhyoo8pQB4p85RsoaB6Dikxeo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/snatoshi
+
+==================================================================
