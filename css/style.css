@@ -413,7 +413,7 @@ body {
 .pimg1 {
   background-image: url("../img/image1.jpg");
   min-height: 100%;
-  opacity: 0.85; }
+  opacity: .75; }
 
 .pimg2 {
   background-image: url("../img/image2.jpg");
@@ -433,8 +433,7 @@ body {
   font-size: 10rem;
   font-style: italic;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  opacity: none; }
+  font-weight: 700; }
 
 .key-bitcoin {
   position: relative;
