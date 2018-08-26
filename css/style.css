@@ -85,6 +85,44 @@ body {
   color: #FF9500;
   font-weight: 400; }
 
+.idea {
+  display: grid;
+  justify-items: center;
+  padding-top: 7rem;
+  margin: 0; }
+  .idea__background {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); }
+  .idea__tittle {
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4rem;
+    text-align: center; }
+  .idea__p {
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    transition: all 500ms;
+    text-decoration: none;
+    color: black; }
+    .idea__p:hover {
+      color: #FF9500; }
+  .idea__svg {
+    height: 2.5rem;
+    width: 2.5rem;
+    animation: bounceChevron 1s infinite;
+    position: relative; }
+
+@keyframes bounceChevron {
+  0% {
+    top: 0px; }
+  50% {
+    top: 10px; }
+  100% {
+    top: 0px; } }
+
 .exchanges {
   background-color: #fff;
   grid-column: center-start / center-end;
@@ -349,7 +387,6 @@ body {
 
 .pimg1, .pimg2, .pimg3 {
   position: relative;
-  opacity: 0.70;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -361,9 +398,15 @@ body {
 
 .pimg1 {
   background-image: url("../img/image1.jpg");
-  min-height: 100%; }
+  min-height: 100%;
+  opacity: 0.85; }
 
 .pimg2 {
+  background-image: url("../img/image2.jpg");
+  min-height: 200px;
+  opacity: 0.85; }
+
+.pimg3 {
   background-image: url("../img/image3.jpg");
   min-height: 200px; }
 
