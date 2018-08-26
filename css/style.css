@@ -188,6 +188,20 @@ body {
   overflow: hidden;
   transition: max-height 0.2s ease-out; }
 
+/* Add Icons
+ Adding a symbol to each button to indicate whether the collapsible content is open or closed:*/
+.accordion:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: .9rem;
+  color: #777;
+  float: right;
+  margin-left: 5px; }
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */ }
+
 .features {
   background-color: white;
   grid-column: center-start / center-end;
