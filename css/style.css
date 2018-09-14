@@ -451,6 +451,25 @@ body {
   .pimg1, .pimg2, .pimg3 {
     background-attachment: scroll; } }
 
+.keyfeatures {
+  background-color: #13161F;
+  width: auto;
+  padding: 3.5rem;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center; }
+
+.keyfeature {
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+  justify-items: center;
+  row-gap: 2rem; }
+  .keyfeature__icon {
+    fill: #FF9500;
+    width: 4.5rem;
+    height: 4.5rem; }
+
 .navigation {
   background-color: #fff;
   opacity: 100%;
@@ -583,6 +602,20 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   color: white; }
+
+.heading-5 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 700;
+  font-style: italic; }
+
+.p-5 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+  font-style: italic; }
 
 .heading-6 {
   font-family: "Ubuntu", sans-serif;
