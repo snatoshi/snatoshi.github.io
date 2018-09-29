@@ -1,0 +1,74 @@
+.team{
+    grid-column: center-start / center-end;
+    margin: 0rem 0rem;
+    background-color: $secondary-blue-footer;
+   
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 5rem;
+    padding: 5rem;
+   
+}
+
+.partner{
+    
+
+    display: grid;
+    grid-template-rows: repeat(auto, auto);
+    grid-row-gap: 0;
+    //border-radius: 5%;
+  
+    
+   
+
+    &__img{
+        padding: 2rem;
+        width: 70%;
+        border-radius: 50%;
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+    &__tittle{
+        justify-self: center;
+    }
+    &__description{
+        justify-self: center;
+        font-family: $font-primary;
+        font-size: 1.5rem;
+        color: $bitcoin-grey;
+        padding-bottom: 3rem;
+    }
+    &__btns{
+        background-color: $secondary-blue-footer;
+        
+        &--svg{
+            height: 5.5rem;
+            width: 5.5rem;
+            &__mail{
+                height: 3.5rem;
+                width: 3.5rem;
+                
+            }
+        }
+       
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:.1rem;
+        justify-items: center;
+        
+        
+        &--linkdin{
+            grid-column: 1 / 1;
+            justify-self: center;
+            
+        }
+        &--mail{
+            justify-self: center;
+        }
+        &--twitter{
+
+        }
+    }
+}
+

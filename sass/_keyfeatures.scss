@@ -1,0 +1,30 @@
+.keyfeatures{
+    background-color:$primary-blue-footer;
+    width: auto;
+    padding: 3.5rem;
+    margin: auto auto;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+   
+ 
+}
+
+.keyfeature{
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+    justify-items: center;
+    row-gap: 2rem;
+    
+    &__icon{
+        fill: $secondary-color;
+        width: 4.5rem;
+        height: 4.5rem;
+       
+        
+    }
+
+
+    
+}

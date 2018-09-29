@@ -1,0 +1,103 @@
+.features{
+    background-color: white;
+    grid-column: center-start / center-end;
+
+    display: grid;
+    //grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 6rem;
+    padding: 5rem;
+    align-items: start;
+}
+
+.feature{
+
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-row-gap: 1.6rem;
+    grid-column-gap: 2.5rem;
+
+    &__icon{
+        fill: $secondary-color;
+        width: 4.5rem;
+        height: 4.5rem;
+        grid-row: 1 / span 2;
+        transform: translateY(-1rem);
+    }
+
+    &__text{
+        font-size: 1.4rem;
+        color: black;
+        
+    }
+    &--1{
+        position:relative;
+        animation: corner-top-left;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    &--2{
+        position:relative;
+        animation: middle-top;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    &--3{
+        position:relative;
+        animation: corner-top-right;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    &--4{
+        position:relative;
+        animation: corner-bottom-left;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    &--5{
+        position:relative;
+        animation: middle-bottom;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    &--6{
+        position:relative;
+        animation: corner-bottom-right;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+}
+
+// K E Y F R A M E S   A N I M A T I O N S
+
+
+@keyframes corner-top-left{
+    0%      {left: -100px}
+    100%    {left: 0}
+}
+@keyframes middle-top{
+    0%      {top: -50px}
+    100%    {top: 0}
+}
+@keyframes corner-top-right{
+    0%      {right: -100px}
+    100%    {right: 0}
+}
+@keyframes corner-bottom-left{
+    0%      {left: -100px}
+    100%    {left: 0}
+}
+@keyframes middle-bottom{
+    0%      {top: 200px}
+    100%    {top: 0}
+}
+@keyframes corner-bottom-right{
+    0%      {right: -100px}
+    100%    {right: 0}
+}

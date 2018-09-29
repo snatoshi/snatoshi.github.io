@@ -1,0 +1,77 @@
+.heading-1{  // FAQ TITTLE
+    justify-self: center;
+    padding: 2rem;
+    font-size: 3rem;
+    font-family: $font-logo;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.paragraph--1{   // FAQ SECTION
+    font-family: $font-logo;
+    font-size: 2.1rem;
+    color: black;
+    padding: 1rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.heading-2{ //FEATUES SECTION
+    font-family: $font-primary;
+    font-size: 1.6rem;
+}
+
+.heading-3{ // TEAM SECTION
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.heading-5{   // KEYFEATURES SECTION
+    font-family: $font-primary;
+    font-size: 2.5rem;
+    color: white;
+
+    font-weight: 700;
+    font-style: italic;
+}
+
+.p-5{
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: white;
+
+    font-weight: 400;
+    font-style: italic;
+}
+.heading-6{ // FOOTER SECTION
+    font-family: $font-logo;
+    font-size: 2rem;
+    color:white;
+    justify-self: left;
+    
+}
+
+.p{
+    color: $bitcoin-grey;
+    font-family: $font-logo;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/*
+.parallax--two__text{
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    font-family: $font-logo;
+    text-align: center;
+    letter-spacing: 2rem;
+    top: 50%;
+    font-size: 5rem;
+}
+*/
+

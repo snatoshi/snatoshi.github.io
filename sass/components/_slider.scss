@@ -1,0 +1,32 @@
+.slider{
+    overflow: hidden;
+    height: auto;
+}
+
+.slider figure div{
+    width: 20%;
+    float: left;
+}
+
+.slider figure img{
+    width: 100%;
+    float: left;
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slidy infinite;
+}
+
+@keyframes slidy{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: -100%;
+    }
+   
+}

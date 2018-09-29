@@ -1,0 +1,21 @@
+.bitcoin{
+    font-family: $font-logo;
+    font-style: italic;
+    font-weight: 700;
+    color: black;
+    &--int{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        font-style: italic;
+        font-size: 7rem;
+        font-weight: 700;
+        }
+}
+
+.x{
+    color: $secondary-color;
+    font-weight: 400;
+}
+

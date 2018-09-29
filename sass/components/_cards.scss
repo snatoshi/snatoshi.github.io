@@ -1,0 +1,76 @@
+.partner__btns--svg{
+    fill: white;
+    
+    grid-column: 4;
+    justify-self: center;
+    transition: all 200ms;
+    &:hover{
+        fill:$secondary-color;
+    }
+    &__icon{
+       
+        
+    }
+}
+
+// T E A M   C A R D S
+
+.card{
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 30rem;
+    
+    
+   &__side{
+        height: 30rem;
+        display:grid;
+        transition: all 1s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+                
+        
+        
+        &--front{
+            display:grid;
+            background-color:$secondary-blue-footer;
+            text-align: center;
+        }
+        &--back{
+            transform: rotateY(180deg);
+           
+            &-1{
+                display:grid;
+                background-color:$secondary-blue-footer;
+                text-align: center;
+                
+                
+            }
+            
+        }
+    }
+
+    &:hover &__side--front{
+        transform: rotateY(-180deg);
+    }
+    &:hover &__side--back{
+        transform: rotateY(0);
+    }
+}
+
+// B A C K   S I D E
+
+.pixel_back{
+    font-family: $font-logo;
+    font-size: 6rem;
+    align-self: center;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+

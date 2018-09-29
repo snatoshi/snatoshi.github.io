@@ -1,0 +1,43 @@
+.exchanges{
+    background-color: $primary-color;
+    grid-column: center-start / center-end;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    padding: 5rem;
+    column-gap: 3.5rem;
+}
+
+.exchange{
+    display: grid;
+    
+    background-color: white;
+    border-radius: 10%;
+    grid-template-rows: repeat(auto, auto);
+    grid-gap: 2rem;
+    padding: 2.5rem;
+    
+    &__img{
+        width: 65%;
+        padding: 2rem;
+        justify-self: center;
+        
+        
+    }
+    &__tittle{
+        justify-self: center;
+       
+        
+    }
+    &__link:link,
+    &__link:visited{
+        font-size: 2.5rem;
+        text-decoration: none;
+        transition: all 500ms;
+    }
+    &__link:hover,
+    &__link:active{
+        font-size: 2.6rem;
+        color: black;
+    }
+}

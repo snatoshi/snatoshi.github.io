@@ -1,0 +1,97 @@
+.footer{
+    background-color: $secondary-blue-footer;
+    
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem;
+    grid-gap: 1.5rem;
+    
+
+    &__first{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+       
+        &--btns{
+           display: grid;
+           grid-template-columns: repeat(7, min-content);
+           justify-items: left;
+           padding-top: 1rem;
+          
+        }
+ 
+    }
+    &--p{
+        color:white;
+        text-decoration: none;
+        font-family: $font-logo;
+        font-size: 1.2rem;
+        transition: all 500ms;
+        &:hover{
+            color:$secondary-color;
+        }
+    }
+    &__second{
+        display:grid;
+        justify-items: right;
+
+        &--tittle{
+            color:white;
+            font-family: $font-logo;
+            font-size: 1.6rem;
+            
+        }
+        
+    }
+    &__third{
+        display:grid;
+        justify-items: right;
+    }
+
+    &__twitter{
+      
+    }
+    &__telegram{
+       
+    }
+    &__reddit{
+       
+    }
+    &__bitcointalk{
+       
+    }
+    &__discord{
+        
+    }
+    &__facebook{
+        
+    }
+
+    &__copyright{
+       
+       align-self: end;
+       color: white;
+       font-family: $font-logo;
+       font-size: 1.1rem;
+       justify-self: left;
+       
+   }
+}
+
+.fsvg{
+    fill: white;
+    height: 2.5rem;
+    width: 2.5rem;
+    transition: all 500ms;
+    margin: 1rem;
+    &:hover{
+        fill: $secondary-color;
+       
+
+    
+    }
+    
+}
+
+
+

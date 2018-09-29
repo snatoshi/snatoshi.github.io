@@ -1,0 +1,75 @@
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+
+  .pimg1{
+    
+    background-image:url('../img/image1.jpg');
+    min-height:100%;
+    opacity: .75;
+   
+    
+    
+  }
+
+  .pimg2{
+    background-image:url('../img/image2.jpg');
+    min-height:200px;
+    opacity:0.85;
+  }
+
+  .pimg3{
+    background-image:url('../img/image3.jpg');
+    min-height:200px;
+  }
+
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size: 10rem;
+    font-style: italic;
+    font-family: $font-logo;
+    font-weight: 700;
+   
+    
+  }
+  
+  .key-bitcoin{
+    position:relative;
+    animation: key-bitcoin;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+  }
+  
+ //K E Y F R A M E S   A N I M A T I O N S
+ @keyframes key-bitcoin{
+  0%      {top: -250px}
+  100%    {top: 0}
+}
+
+
+
+
+ // M E D I A   Q U E R I E S  
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+
+  

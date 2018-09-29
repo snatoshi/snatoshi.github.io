@@ -1,0 +1,114 @@
+.navigation{
+    
+    background-color: $primary-color;
+    opacity: 100%;
+    grid-column: full-start / full-end;
+    padding: .1rem;
+    position: fixed;
+    
+    z-index: 3;
+    width: 100%;
+    
+    
+    
+     
+}
+
+.nav{
+    list-style: none;
+    
+    display: grid;
+    grid-template-columns: auto min-content min-content min-content 9rem; //11rem 11rem 11rem 11rem
+    grid-gap: 2rem;
+    align-items: center;
+   
+    &--logo{
+        padding-left: 2.5rem;
+        justify-self: start;
+        font-family: $font-logo;
+        color: black;
+        font-size: 2.9rem;
+        grid-column: 1 / 1;
+        text-align: center;
+        font-weight: 700;
+        font-style: italic;
+        &__x{
+            color: $secondary-color;
+            font-weight: 400;
+            //font-style: normal;
+        }
+    }
+    
+    
+
+
+
+
+
+
+    &__link:link,
+    &__link:visited{
+        font-size: 1.5rem;
+        color: black;
+        text-decoration: none;
+        font-family: $font-logo;
+        font-weight: 300;
+        
+        
+        text-align: center;
+        padding: 1.5rem;
+        display: block;
+        transition: all .2s;
+        
+    }        
+
+    &__item{
+        position: relative;
+       
+        &::before{
+            content:"";
+            position:absolute;
+            top:99%;
+            left:0;
+            height: 1.5px;
+            width: 100%;
+            background-color: $secondary-color;
+            transform: scale(0, 1);
+            transition: transform ease-in-out 500ms;
+            
+        
+        }
+        &:hover::before{
+            transform:scale(1,1);
+        }
+        
+            
+    }
+    
+   
+    &__link:hover,
+    &__link:active{
+       &--features{
+            width: 100%;
+            grid-column: 2 / 2;
+            
+        }
+        &--team{
+            width: 100%;
+        }
+        &--exchanges{
+            width: 100%;
+        }
+        &--faq{
+            width: 100%;
+            
+        }
+    }
+  
+    
+    
+    
+}
+
+
+

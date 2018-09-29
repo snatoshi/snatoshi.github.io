@@ -1,0 +1,44 @@
+// COLOR VARIABLES
+$primary-color:#fff;
+$secondary-color:#FF9500;
+$bitcoin-grey: #4D4D4D;
+$primary-blue-footer: #13161F;
+$secondary-blue-footer: #090C14;
+
+// FONTS
+$font-logo: 'Ubuntu', sans-serif;  
+$font-primary: 'Lato', sans-serif;
+
+// MEDIA QUERIES
+
+$bp-small: 37.5em; //600px
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; //10px/16px = 62.5% 1rem = 10px
+    height: 100%;
+    margin: 0;
+    @media only screen and (max-width: $bp-small){
+        font-size: 50%;
+    }
+}
+
+body{
+    font-family: $font-primary;
+    color: black;
+    font-weight: 300;
+    line-height: 1.6;
+    height: 100%;
+    margin: 0;
+}
+
+
+

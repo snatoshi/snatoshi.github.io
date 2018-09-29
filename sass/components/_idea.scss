@@ -1,0 +1,48 @@
+.idea{
+    display: grid;
+    justify-items: center;
+   
+    padding-top: 7rem;
+    margin: 0;
+
+    &__background{
+        width:100%;
+        background-color: rgba($color: #fff, $alpha: .50)        
+        
+    }
+    &__tittle{
+        font-style: italic;
+        font-weight: 400;
+        font-family: $font-logo;
+        font-size: 4rem;
+        text-align: center;
+        
+        
+
+    }
+    &__p{
+        font-style: italic;
+        font-weight: 400;
+        font-family: $font-logo;
+        font-size: 2rem;
+        transition: all 500ms;
+        text-decoration: none;
+        color: black;
+       
+        &:hover{
+            color:$secondary-color;
+        }
+    }
+    &__svg{
+        height: 2.5rem;
+        width:2.5rem;
+        animation: bounceChevron 1s infinite;
+        position: relative;
+    }
+}
+
+@keyframes bounceChevron {
+    0%      {top: 0px;}
+    50%     {top: 10px;}
+    100%    {top: 0px;}
+}
