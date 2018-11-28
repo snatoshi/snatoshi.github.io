@@ -20,7 +20,8 @@ body {
   font-weight: 300;
   line-height: 1.6;
   height: 100%;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 .partner__btns--svg {
   fill: white;
@@ -147,6 +148,19 @@ body {
     left: 0%; }
   100% {
     left: -100%; } }
+
+.countdown {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  word-spacing: 1rem;
+  top: 71%;
+  position: absolute; }
+
+.particles {
+  height: 100vh; }
 
 .exchanges {
   background-color: #fff;
@@ -424,6 +438,11 @@ body {
     object-fit: cover;
     display: block; }
 
+.header {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: center; }
+
 .pimg1, .pimg2, .pimg3 {
   position: relative;
   background-position: center;
@@ -436,9 +455,8 @@ body {
   background-attachment: fixed; }
 
 .pimg1 {
-  background-image: url("../img/image1.jpg");
-  min-height: 100%;
-  opacity: .75; }
+  background-image: url("../img/sky.jpg");
+  min-height: 100%; }
 
 .pimg2 {
   background-image: url("../img/image2.jpg");
@@ -454,7 +472,7 @@ body {
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #FFF;
   font-size: 10rem;
   font-style: italic;
   font-family: "Ubuntu", sans-serif;
@@ -496,7 +514,7 @@ body {
     height: 4.5rem; }
 
 .navigation {
-  background-color: #fff;
+  background-color: #13161F;
   opacity: 100%;
   grid-column: full-start / full-end;
   padding: .1rem;
@@ -514,7 +532,7 @@ body {
     padding-left: 2.5rem;
     justify-self: start;
     font-family: "Ubuntu", sans-serif;
-    color: black;
+    color: white;
     font-size: 2.9rem;
     grid-column: 1 / 1;
     text-align: center;
@@ -525,7 +543,7 @@ body {
       font-weight: 400; }
   .nav__link:link, .nav__link:visited {
     font-size: 1.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
