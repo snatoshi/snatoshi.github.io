@@ -12,7 +12,7 @@ display_decimals=2
 name="Bitcoin X"
 desc="Bitcoin X is an asset running on Stellar Lumens platform that aims to accomplish the Satoshis's vision under a scalable way."
 conditions="21 million Total Supply"
-image="https://bitx.tk/img/BTX_logo_original.png"
+image="https://bitx.tk/img/logo.png"
 
 # optional extra information for humans
 # Useful place for anchors to detail various policies and required info
